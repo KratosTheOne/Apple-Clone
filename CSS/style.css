@@ -1,0 +1,267 @@
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: white;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    background-color: #fff;
+    color: #1f1f1d;
+}
+.nav-main{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    font-size: ;
+    height: 48px;
+    box-sizing: border-box;
+    letter-spacing: normal;
+    background: #333;
+    backdrop-filter: saturate(180%) blur(20px);
+}
+.nav-main image{
+    margin-bottom: 10px;
+}
+.nav-main ul{
+    font-size: 1em;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    padding: 10px 50px;
+    list-style: none;
+}
+.nav-main li{
+    display: inline;
+    padding: 5px 40px;
+}
+.nav-main ul li a{
+    text-decoration: none;
+    color: lightgray;
+}
+#below-nav{
+    background-color: #f5f5f7;
+    padding-top: 35px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+#iPhone-12{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.i12{
+    background-image: url('../images/imageapple.jpg');
+    height: 80vh;
+    width: 100%;
+    margin: 10px;
+    background-size: 100% 100%;
+}
+.i12 h1{
+    padding-top: 40px;
+    font-style: bold;
+    font-weight: 1000;
+}
+.i12 h3{
+    font-weight: lighter;
+}
+.i12 h4{
+    color: lightgrey;
+}
+.i12 a{
+    color: #06c;
+    padding: 0px 10px;
+}
+/* iphone 12 pro */
+.i12pro{
+    background-image: url('/images/iphone12pro.jpeg');
+    height: 80vh;
+    width: 100%;
+    margin: 10px;
+    background-size: 100% 100%;
+}
+.i12pro h1{
+    color: white;
+    font-style: bold;
+    font-weight: 900;
+    padding-top: 40px;
+}
+.i12pro h3{
+    color: white;
+    font-weight: lighter;
+}
+.i12pro h4{
+    color: lightgrey;
+}
+.i12pro a{
+    color: #06c;
+    padding: 0px 10px;
+}
+/*ipad pro*/
+.ipad{
+    background-image: url('../images/ipadpro.jpeg');
+    background-repeat: no-repeat;
+    height: 80vh;
+    width: 100%;
+    margin: 10px;
+    background-size: 100% 100%;
+}
+.ipad h1{
+    color: white;
+    font-weight: 900;
+    padding-top: 40px;
+}
+.ipad h3{
+    color: white;
+    font-weight: ligter;
+}
+.ipad a{
+    color: #06c;
+    padding: 0px 10px;
+}
+/*uni*/
+.block1{
+    float: left;
+    width: 50%;
+    background-color: #fff;
+}
+.uni{
+    background-image: url('../images/backtoschool.jpg');
+    height: 80vh;
+    width: 100%;    
+    margin: 10px;
+    background-size: 100% 100%;
+}
+.uni h1{
+    color: black;
+    font-weight: 500;
+    padding-top: 40px;
+}
+.uni a{
+    color: #06c;
+    padding: 0px 10px;
+}
+
+/*watch*/
+.iwatch{
+    background-image: url('../images/applewatch.jpg');
+    height: 80vh;
+    width: 100%;    
+    margin: 10px;
+    background-size: 100% 100%;
+}
+.iwatch h1{
+    color: white;
+    padding-top: 40px;
+}
+.iwatch h4{
+    color: darkred;
+}
+.iwatch h3{
+    color: white;
+    font-weight: lighter;
+}
+.iwatch a{
+    color: #06c;
+    padding: 0px 10px;
+}
+/*imac*/
+.iMac{
+    background-image: url('../images/imac.jpg');
+    height: 80vh;
+    width: 100%;    
+    margin: 10px;
+    background-size: 100% 100%;
+}
+.iMac h1{
+    color: black;
+    padding-top: 40px;
+}
+.iMac h3{
+    color: black;
+    font-weight: lighter;
+} 
+.iMac a{
+    color: #06c;
+    padding: 0px 10px;
+}
+/*airtag*/
+.air{
+    background-image: url('../images/airtag.jpg');
+    height: 80vh;
+    width: 100%;    
+    margin: 10px;
+    background-size: 100% 100%;
+}
+.air h1{
+    color: black;
+    padding-top: 40px;
+}
+.air h3{
+    color: black;
+    font-weight: lighter;
+} 
+.air a{
+    color: #06c;
+    padding: 0px 10px;
+}
+/*music*/
+.music{
+    background-image: url('../images/applemusic.jpg');
+    height: 80vh;
+    width: 100%;    
+    margin: 10px;
+    background-size: 100% 100%;
+}
+.music h1{
+    color: white;
+    padding-top: 40px;
+}
+.music h3{
+    color: white;
+    font-weight: lighter;
+} 
+.music a{
+    color: white;
+}
+/*tv*/
+.tv{
+    background-image: url('../images/appletv.jpg');
+    height: 80vh;
+    width: 100%;    
+    margin: 10px;
+    background-size: 100% 100%;
+}
+.tv h2{
+    color: white;
+    padding-top: 40px;
+}
+.tv h1{
+    color: white;
+    font-weight: lighter;
+} 
+.tv h3{
+    color: white;
+    font-weight: lighter;
+}
+.tv a{
+    color: white;
+}
+.mbox{
+    font-size: 1em;
+    padding: 20px 40px;
+}
+#main-footer{
+    background-color: #f5f5f7;
+}
+.block li{
+    list-style: none;
+}
+.new-block{
+    float: left;
+    width: 25%;
+}
+.footer2{
+    background-color: #f5f5f7
+}
